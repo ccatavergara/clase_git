@@ -1,56 +1,15 @@
-Aca podemos escribir distintas ideas para el trabajo.
-Aca hay mas cosas
+git init -- inicializar repo
 
-(base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git status
-On branch IntroGit
-nothing to commit, working tree clean
-(base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git status 
-On branch IntroGit
-nothing to commit, working tree clean
-(base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git status
-On branch IntroGit
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   main.py
+git add <archivo> -- sacar foto
 
-no changes added to commit (use "git add" and/or "git commit -a")
-(base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git diff
-diff --git a/main.py b/main.py
-index e69de29..84eeca6 100644
---- a/main.py
-+++ b/main.py
-@@ -0,0 +1,5 @@
-+# Introduccion
-+
-+#Desarrollo
-+
-+#Conclusion
-\ No newline at end of file
-(base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git add main.py
-(base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git status
-On branch IntroGit
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        modified:   main.py
+git commit -m "" -- guardar foto
 
-(base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git commit -m "primer layout"             
-[IntroGit 40af4e6] primer layout
- 1 file changed, 5 insertions(+)
-(base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git status
-On branch IntroGit
-nothing to commit, working tree clean
-(base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git status
-On branch IntroGit
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   main.py
+git push -- subir cambios
 
-no changes added to commit (use "git add" and/or "git commit -a")
-(base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git add main.py
-(base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git commit -m "comienzo intro"   
-[IntroGit bd824f8] comienzo intro
- 1 file changed, 3 insertions(+), 1 deletion(-)
-(base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git stattus
-git: 'stattus' is not a git command. See 'git --help'.
+git pull -- bajar cambios
+
+git log -- mostrar historia
+
+git status -- mostrar estado actual
+
+git diff -- mostrar diferencias
