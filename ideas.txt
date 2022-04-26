@@ -1,4 +1,5 @@
 Aca podemos escribir distintas ideas para el trabajo.
+Aca hay mas cosas
 
 (base) catavergara@Cata-Vergaras-MacBook-Pro introgit % git status
 On branch IntroGit
